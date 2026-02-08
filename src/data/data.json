@@ -1,0 +1,121 @@
+{
+  "stats": [
+     {
+    "title": "Active Users",
+    "value": 342,
+    "change": 18,
+    "icon": "fa-solid fa-user"
+  },
+  {
+    "title": "New Orders",
+    "value": 57,
+    "change": 11,
+    "icon": "fa-solid fa-cart-shopping"
+  },
+  {
+    "title": "Total Products",
+    "value": 198,
+    "change": -3,
+    "icon": "fa-solid fa-box-open"
+  }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "name": "Ali Karimov",
+      "email": "ali@gmail.com",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Vali Toshmatov",
+      "email": "vali@gmail.com",
+      "role": "user",
+      "status": "inactive"
+    },
+    {
+      "id": 3,
+      "name": "Sardor Islomov",
+      "email": "sardor@gmail.com",
+      "role": "user",
+      "status": "active"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 850,
+      "stock": 12
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 600,
+      "stock": 25
+    },
+    {
+      "id": 3,
+      "name": "SAMSUNG S24",
+      "price": 1080,
+      "stock": 50
+    }, {
+      "id": 3,
+      "name": "Samsung Headphones",
+      "price": 240,
+      "stock": 60
+    }, {
+      "id": 2,
+      "name": "Loqitech Headphones",
+      "price": 320,
+      "stock": 80
+    }, {
+      "id": 4,
+      "name": "Iphone",
+      "price": 1200,
+      "stock": 50
+    }, {
+      "id": 5,
+      "name": "Laptop",
+      "price": 250,
+      "stock": 50
+    }
+  ],
+
+  "orders": [
+    {
+      "id": 101,
+      "user": "Ali Karimov",
+      "product": "Laptop",
+      "amount": 850,
+      "status": "completed"
+    },
+    {
+      "id": 102,
+      "user": "Sardor Islomov",
+      "product": "Smartphone",
+      "amount": 600,
+      "status": "pending"
+    },
+    {
+      "id": 103,
+      "user": "Vali Toshmatov",
+      "product": "Headphones",
+      "amount": 120,
+      "status": "cancelled"
+    }
+  ],
+
+  "chart": [
+    { "day": "Mon", "sales": 220, "revenue": 150 },
+    { "day": "Tue", "sales": 320, "revenue": 210 },
+    { "day": "Wed", "sales": 480, "revenue": 300 },
+    { "day": "Thu", "sales": 430, "revenue": 290 },
+    { "day": "Fri", "sales": 680, "revenue": 410 },
+    { "day": "Sat", "sales": 590, "revenue": 420 },
+    { "day": "Sun", "sales": 810, "revenue": 540 }
+  ]
+}
